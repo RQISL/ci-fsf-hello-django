@@ -28,8 +28,7 @@ SECRET_KEY = 'django-insecure-ivv^a1l4jom3x2gnh0pr(*%j*$-8_b!iq07gkee$hh',
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-rqisl-ci-fsf-hello-djang-6f49yqvs9k.us2.codeanyapp.com',
-                 os.environ.get('HEROKU_HOSTNAME')]
+ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
 
 # Application definition
